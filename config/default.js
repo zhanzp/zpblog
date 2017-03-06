@@ -1,0 +1,9 @@
+module.exports={
+    port:3000,
+    session:{
+        secret:'zpblog',
+        key:'zoblog',
+        maxAge:'2592000'
+    },
+    mongodb:'mongodb://localhost:27017/myblog'
+}
